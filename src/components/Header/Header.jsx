@@ -1,25 +1,13 @@
-import ToggleTheme from '../ToggleTheme/ToggleTheme';
-
-const data = Date.now();
-const hoje = new Date(data);
-const diasDaSemana = [
-  'Domingo',
-  'Segunda-feira',
-  'Terça-feira',
-  'Quarta-feira',
-  'Quinta-feira',
-  'Sexta-feira',
-  'Sábado',
-];
-
+import Menu from '../Menu/Menu';
 const Header = () => {
   return (
-    <div className="flex justify-between self-baseline items-center p-5 bg-violet-300 dark:bg-violet-800">
-      <span className="hidden sm:block text-l text-violet-800 dark:text-violet-300">
-        Olá, visitante! <br /> {`${diasDaSemana[hoje.getDay()]}, ${hoje.toLocaleDateString('pt-BR')}`}
-      </span>
-      <a href='/' className= "text-violet-800 dark:text-violet-300 text-2xl align-center sm:text-4xl cursor-pointer">Cecília Lourenço</a>
-      <ToggleTheme />
+    <div className="flex flex-row p-5 fixed z-10 top-0 h-[100px] w-full bg-white">
+      <img 
+        src="/fotoAtual.jpg"
+        className='h-[60px] w-[60px] rounded-full border-solid border-2 border-orange-600'
+      />
+      <h1 className='p-3 text-2xl'>CECÍLIA LOURENÇO</h1>
+      <Menu /> 
     </div>
   );
 };
