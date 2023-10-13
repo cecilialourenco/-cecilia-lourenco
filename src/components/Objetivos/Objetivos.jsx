@@ -1,6 +1,6 @@
 const Objetivos = () => {
   return(
-    <section id="#objetivos">
+    <section id="objetivos">
       <h1 className='text-5xl text-center p-10'>Objetivos</h1>
       <p className='flex items-center text-justify text-3xl text-slate-950 m-10'>
           Quero continuar estudando, evoluir cada vez mais como desenvolvedora

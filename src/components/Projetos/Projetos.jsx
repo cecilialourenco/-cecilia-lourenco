@@ -1,6 +1,6 @@
 const Projetos = () => {
   return(
-    <div id="#projetos" >
+    <div id="projetos" >
       <h1 className='text-5xl text-center p-10'>Projetos</h1>
       <div className='items-center text-justify text-3xl text-slate-950 m-10'>
         <p>

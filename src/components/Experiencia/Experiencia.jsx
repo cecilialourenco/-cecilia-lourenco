@@ -1,6 +1,6 @@
 const Experiencia = () => {
   return(
-    <section id="#experiencia">
+    <section id="experiencia">
       <h1 className='text-5xl text-center p-10'>Experiência</h1>
       <div  className='flex items-center text-justify text-3xl text-slate-950 m-10'>
         <p>

@@ -1,6 +1,6 @@
 const Sobre = () => {
   return(
-    <section id="#sobreMim">
+    <section id="sobreMim">
       <h1 className='text-5xl text-center p-10'>Sobre mim</h1>
       <p className='flex items-center  text-justify text-3xl text-slate-950 text-opacity-100 mx-20'>
         <img src='/fotoAtual.jpg' className='h-72 pr-5 rounded-t-full' />  
