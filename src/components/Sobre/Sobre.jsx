@@ -1,8 +1,8 @@
 const Sobre = () => {
   return(
-    <section id="sobreMim">
-      <h1 className='text-5xl text-center p-10'>Sobre mim</h1>
-      <p className='flex items-center  text-justify text-3xl text-slate-950 text-opacity-100 mx-20'>
+    <section id="sobreMim" className='bg-[#FC6A26]/30 p-10'>
+      <h1 className='text-5xl text-center font-bold pt-20 pb-10'>Sobre mim</h1>
+      <p className='flex items-center leading-relaxed text-justify text-3xl text-slate-950 text-opacity-100 mx-20'>
         <img src='/fotoAtual.jpg' className='h-72 pr-5 rounded-t-full' />  
         Meu nome é Cecília, tenho 39 anos, sou mulher 
         cisgênero, negra e moro na cidade do Rio de Janeiro.

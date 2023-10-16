@@ -1,8 +1,8 @@
 const Projetos = () => {
   return(
-    <div id="projetos" >
-      <h1 className='text-5xl text-center p-10'>Projetos</h1>
-      <div className='items-center text-justify text-3xl text-slate-950 m-10'>
+    <div id="projetos" className='bg-[#faddcf]/30 pt-10' >
+      <h1 className='text-5xl text-center font-bold pt-20 pb-10'>Projetos</h1>
+      <div className='leading-relaxed items-center text-justify text-3xl text-slate-950 mx-20'>
         <p>
           Pelo estágio que realizei, desenvolvi um Jokenpô (joguinho da pedra,
           papel e tesoura) onde tive a oportunidade de fazer um programa
