@@ -10,8 +10,7 @@ const App = () => {
   return (
     <div className='flex flex-col h-[100vh]'>
         <Header />
-      <div className="grow relative pt-[100px]">
-        <img className='h-full w-full fixed z-[-10] opacity-40' src='/design-elegante-de-fundo-abstrato-de-memphis.jpg'/>
+      <div className="pt-20">
         <Home />
         <Sobre />
         <Experiencia />
