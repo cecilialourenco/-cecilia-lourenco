@@ -6,11 +6,11 @@ const Contatos = () => {
       <h1 className='text-3xl lg:text-5xl font-bold text-center pt-20 pb-10'>Contatos</h1>
       <div className='max-w-[1600px] mx-20'>
         <h2 className='text-2xl lg:text-4xl text-center pb-10'>Obrigada por acessar a minha página! :D</h2>
-        <p className='text-xl lg:text-3xl leading-relaxed justify-center pb-20'>
+        <p className='text-xl lg:text-3xl leading-relaxed text-center pb-20'>
           Deseja entrar em contato comigo para trocar uma ideia ou me contratar?
           Pode mandar uma mensagem através dos seguintes canais:
         </p>
-        <ul className='lg:flex flex-row justify-between lg:text-xl leading-loose pb-20'>  
+        <ul className='lg:flex lg:flex-row lg:justify-between lg:text-xl leading-loose pb-20'>  
           <a 
             className='grid justify-items-center'
             href="mailto:ceciliamblourenco@gmail.com">
