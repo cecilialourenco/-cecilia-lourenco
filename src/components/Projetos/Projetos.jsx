@@ -23,10 +23,12 @@ const Projetos = () => {
             <div className='flex flex-col justify-center'>
               <h2 className='uppercase font-bold text-[20px] lg:text-[30px] mb-2'>Coin Converter </h2>
               <p className='text-xl lg:text-2xl lg:leading-relaxed'>
-                Projeto de criação própria para fins de prática de ReactJS.
+                O <a className='cursor-pointer underline decoration-solid' 
+                href="https://coin-converter-one.vercel.app">Coin Converter</a>{" "} é um projeto de criação própria para 
+                fins de prática de ReactJS.
                 Trata-se de uma aplicação para converter moedas.
                 Para este projeto, foram utilizadas as seguintes linguagens e
-                ferramentas: HTML, CSS, JavaScript, ReactJS e Bootstrap.<br/><br/>
+                ferramentas: HTML, CSS, JavaScript, ReactJS e Bootstrap.
               </p>
             </div>
           </div>
