@@ -9,7 +9,7 @@ import Footer from '../components/Footer/Footer';
 const App = () => {
   return (
     <div className='flex flex-col h-[100vh]'>
-        <Header />
+      <Header />
       <div className="pt-20">
         <Home />
         <Sobre />
