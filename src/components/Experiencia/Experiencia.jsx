@@ -17,14 +17,20 @@ const Experiencia = () => {
           MongoDB, JavaScript, TypeScript, Node, NextJS e ApiRest.
         </p>
         <p>
-          Atualmente, meu foco de estudo e prática tem sido no desenvolvimento web 
-          com frontend, utilizando JavaScript, TypeScript, HTML, CSS, Bootstrap, 
-          Tailwind, SASS e React.
+          Atualmente, sou estagiária em uma empresa do ramo portuário, 
+          onde desempenho as seguintes funções:
         </p>
-        <p>
-          Como forma de aprendizado, procuro ler documentações oficiais, assisto vídeos 
-          no YouTube, faço cursos e pratico através de desafios e projetos pessoais.
-        </p>
+        <ul style={{listStyleType: "square", paddingLeft: "1em"}}>
+          <li>Contribuição para a otimização de processos e melhorias no uso do sistema,
+              garantindo maior eficiência e usabilidade para os usuários;</li>
+          <li>Facilitação da comunicação entre a equipe internacional (sede em Manila),
+              fornecedores e colaboradores locais, alinhando expectativas e prazos;</li>
+          <li>Gerenciamento de demandas do SAP, organizando e direcionando as
+              demandas para as equipes responsáveis;</li>
+          <li>Documentação de funcionalidades e bugs em sistemas web, criando manuais
+              para facilitar a manutenção futura.</li>
+        </ul>
+
       </div>
     </section>
   );
