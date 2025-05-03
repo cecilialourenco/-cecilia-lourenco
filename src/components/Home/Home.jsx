@@ -6,8 +6,9 @@ const Home = () => {
           olá, eu sou Cecília Lourenço.<br/>
           Seja bem-vindo(a) à minha página! =)
         </h1>
-        <p className='lg:leading-relaxed lg:text-2xl pt-10 pb-20'>Sou aluna do curso de Análise e Desenvolvimento de Sistemas e estou em busca
-          de oportunidades de estágio em Desenvolvimento Web. 
+        <p className='lg:leading-relaxed lg:text-2xl pt-10 pb-20'>Estou cursando 
+          MBA em Gestão de Projetos e Metodologias Ágeis e também sou aluna de graduação do curso de Análise e Desenvolvimento de Sistemas.<br></br> Busco
+       oportunidades na área de Gestão de Projetos em TI. 
         </p>
         <a className='rounded-md lg:text-2xl font-bold bg-lime-600 hover:bg-lime-500 p-5' href="#contatos">CONTATOS</a>
       </div>
