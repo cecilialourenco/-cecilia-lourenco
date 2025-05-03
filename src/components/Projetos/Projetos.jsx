@@ -2,6 +2,7 @@ const Projetos = () => {
   return(
     <section id="projetos" className='bg-[#FC6A26]/30 py-20 flex flex-col items-center' >
       <h1 className='text-3xl lg:text-5xl text-center font-bold pt-20 pb-10'>Projetos</h1>
+      <p className='text-xl lg:text-2xl lg:leading-relaxed'>Alguns exemplos de projetos que desenvolvi durante os meus estudos de programação:</p>
       <div className='max-w-[1600px] mx-20'>
         <div className='items-center text-justify text-3xl text-slate-950'>
           <div className='lg:grid grid-cols-2 gap-4 content-center pb-10'>
